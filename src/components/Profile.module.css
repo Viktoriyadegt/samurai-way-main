@@ -1,0 +1,12 @@
+.content {
+    grid-area: c;
+    background-color: aquamarine;
+}
+
+.content img {
+    width: 1000px;
+}
+
+.posts {
+    color: white;
+}
