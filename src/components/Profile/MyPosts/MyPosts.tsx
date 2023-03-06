@@ -9,12 +9,12 @@ export const MyPosts = (props: MyPostsPropsType) => {
         <div>
             my posts
             <div>
-                new posts
+                <textarea>new post</textarea>
+                <button>add post</button>
             </div>
             <div className={s.posts}>
-                <Post/>
-                <Post/>
-                <Post/>
+                <Post post={'Hi, haw are you?'} likesCount={15}/>
+                <Post post={"It's my first post"} likesCount={87}/>
             </div>
         </div>
     )
